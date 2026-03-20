@@ -1,0 +1,66 @@
+{
+  "content": [
+   "La filosofia de esta aplicación Web ha sido que sea lo más barata posible usando tecnologías Web modernas.",
+   "Es por esto que tanto los frameworks de desarrollo, base de datos, herramientas y servidores son todo tecnologías gratuitas.",
+   "El único coste ha sido el dominio cereixeira.com."
+  ],
+  "items": [
+    {
+      "title": "Angular",
+      "description": "front-end framework",
+      "urlSite": "https://angular.io",
+      "urlImg": "assets/about/logo_angular.svg",
+      "details":"El front-end ha sido desarrollado con Angualar 16, desplegado en entorno Firebase. Se han implementado formularios reactivos, signals así como varios servicios que utilizan RestAPI desarrollada con NestJs."
+    },
+    {
+      "title": "NestJs",
+      "description": "back-end framework",
+      "urlSite": "https://nestjs.com",
+      "urlImg": "assets/about/logo_nestjs.svg",
+      "details":"El back-end implemena una RestAPI desarrollada con Nestjs, desplegada en Cyclic. Se conecta con una base de datos MongoDB Atlas que es donde se alojan los contenidos dinámicos de la aplicación."
+    },
+    {
+      "title": "MongoDB Atlas",
+      "description": "Cloud Database",
+      "urlSite": "https://www.mongodb.com/atlas/database",
+      "urlImg": "assets/about/logo_mongo_atlas.svg",
+      "details":"La base de datos para contido dinámico es MongoBD ya que al trabajar con estructuras JSON Mongo permite un desarrollo rápido con tecnologias Angular y Nestjs."
+    },
+    {
+      "title": "Visual Studio Code",
+      "description": "IDE desarrollo",
+      "urlSite": "https://code.visualstudio.com",
+      "urlImg": "assets/about/logo_visual_studio_code.svg",
+      "details":"La herramienta de desarrollo ha sido Visual Studio Code ya que cuenta con numerosos plugins para Angular."
+    },
+    {
+      "title": "GitHub",
+      "description": "Control Versiones",
+      "urlSite": "https://github.com/",
+      "urlImg": "assets/about/logo_github.svg",
+      "details":"El control de versiones se ha realizado con Git y se usa el repositorio GitHub."
+    },
+    {
+      "title": "Firebase",
+      "description": "Servidor de aplicación front-end",
+      "urlSite": "https://firebase.google.com",
+      "urlImg": "assets/about/logo_firebase.svg",
+      "details":"Como servidor front-end he elegido firebase porque permite despliegues desde PC. Hay otras opciones pero obligaban a tener el repositorio público en vez de privado."
+    },
+    {
+      "title": "Cyclic",
+      "description": "Servidor de aplicación back-end",
+      "urlSite": "https://www.cyclic.sh",
+      "urlImg": "assets/about/logo_cyclic.svg",
+      "details":"El servidor back-end elegido es Cyclic porque permite despliegues despliegues automáticos desde rama con repositorio privado."
+    },
+    {
+      "title": "IPFS",
+      "description": "Almacén de ficheros dinámicos",
+      "urlSite": "https://ipfs.tech",
+      "urlImg": "assets/about/logo_ipfs.svg",
+      "details":"Los ficheros dinámicos son subidos a una instancia de Elastic IPFS usando tecnología web3.storage."
+    }
+
+  ]
+}

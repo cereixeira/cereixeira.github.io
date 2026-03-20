@@ -1,0 +1,257 @@
+{
+  "personal":{
+    "titulo": "Info. Personal",
+    "urlFoto": "assets/foto cuadrada sin fondo.png",
+    "labelNombre?": "Nombre",
+    "nombre": "Francisco Javier Díaz López",
+    "labelTelefono": "Teléfono",
+    "telefono": "+34 xxxxxxxxx",
+    "labelMail": "Correo electrónico",
+    "mail": "fjavierdiazlopez@gmail.com",
+    "labelNacionalidad": "Nacionalidad",
+    "nacionalidad": "Español",
+    "extra":[{
+        "label": "Site",
+        "value": "http://cereixeira.com",
+        "isLink": true
+      }, {
+        "label": "GitHub",
+        "value": "https://github.com/cereixeira",
+        "isLink": true
+      }
+    ]
+
+  },
+  "experiencia": {
+    "titulo": "Info. Profesional",
+    "datos":[{
+        "fechaIni": "Febrero 2019",
+        "fechaFin": "Actualidad",
+        "empresa": "DXC TECHNOLOGY SPAIN",
+        "puesto": "Analista programador Java / Alfresco / Angular",
+        "proyectos":[
+          {
+            "nombre":"SingularBank, MedVida, IRP",
+            "fechaIni": "2022-01-01",
+            "fechaFin": "Actualidad",
+            "descripcion":[
+              "Desarrollos Java para gestor documental Alfresco para Entidades Financieras.",
+              "Creación de custom Behaviors y WebScripts para integraciones con terceros.",
+              "Desarrollo de herramientas para Migración de documentos con Spring boot.",
+              "Desarrollo de front-end Angular ADF que está basada en Angular.",
+              "Despliegues de Alfresco y portal ADF en entornos AWS."
+            ],
+            "tecnologias":"Alfresco, Angular, AWS, Java, TypeScript, Web Services, Jira, Git"
+          },
+          {
+            "nombre":"Doxis",
+            "fechaIni": "2019-02-01",
+            "fechaFin": "2021-12-01",
+            "descripcion":[
+              "Desarrollos Java para gestor documental Doxis para Entidades Financieras.",
+              "Creación de artefactos Java basados en Doxis4 Java API así como Werb Services Cxf para integraciones con terceros.",
+              "Despliegue artefactos Java usando pipelines Jenkins donde se evalúan pruebas unitarias e integración, control de calidad con Veracode.",
+              "Creación de herramienta de migración de datos con Spring Batch."
+            ],
+            "tecnologias":"Doxis, Jenkins, Java, UML, Web Services, Scrum, Jira, Git"
+          }
+        ]
+    }, {
+        "fechaIni": "Diciembre 2011",
+        "fechaFin": "Febrero 2019",
+        "empresa": "SOFTWARE AG SPAIN",
+        "puesto": "Analista Java / Consultor ARIS",
+        "proyectos":[
+          {
+            "nombre":"Consultor ARIS Scripting",
+            "fechaIni": "2016-10-01",
+            "fechaFin": "2019-02-01",
+            "descripcion":[
+              "Consultoría Técnica ARIS Report script customizing en el marco de servicio para Entidades Financieras y Aseguradoras (Bankinter, Santa Lucia, BBVA, MAPFRE)."
+            ],
+            "tecnologias":"Java, JavaScript, ARIS (BPM)"
+          },
+          {
+            "nombre":"EOS",
+            "fechaIni": "2015-01-01",
+            "fechaFin": "2016-10-01",
+            "descripcion":[
+              "Análisis y desarrollo aplicación J2EE 'EOS' para la gestión de imagen digital y radio diagnóstico en la red hospitalaria SESPA."
+            ],
+            "tecnologias":"Java, J2EE, Web Services, Struts, Oracle, SVN"
+          },
+          {
+            "nombre":"Mantenimiento Apps",
+            "fechaIni": "2013-01-01",
+            "fechaFin": "2015-01-01",
+            "descripcion":[
+              "Mantenimiento de aplicaciones J2EE del Gobierno del Principado de Asturias (Lote A).",
+              "Tareas de Análisis funcional, Gestión de indencias y Evolutivos."
+            ],
+            "tecnologias":"Java, J2EE, Web Services, Spring, Oracle, SVN"
+          },
+          {
+            "nombre":"Alsa",
+            "fechaIni": "2011-12-01",
+            "fechaFin": "2013-01-01",
+            "descripcion":[
+              "Implementación de Web Services para integración de sistemas.",
+              "Desarrollos de herramientas Java para gestión de back-office."
+            ],
+            "tecnologias":"Java, J2EE, Web Services, Spring, Oracle, SVN"
+          }
+        ]
+    }, {
+        "fechaIni": "Diciembre 2010",
+        "fechaFin": "Diciembre 2011",
+        "empresa": "APOLO COMUNICACIONES",
+        "puesto": "Analista programador Java",
+        "proyectos":[
+          {
+            "nombre":"Alsa",
+            "fechaIni": "2010-12-01",
+            "fechaFin": "2011-12-01",
+            "descripcion":[
+              "Aplicación para la certiciación de software de caja en aeropuertos AENA.",
+              "Desarrollo de Servicios Web para envío notificaciones SMS/email corporativos.",
+              "Integración de sistemas ALSA - IBERIA dentro de proyecto Bus & Fly mediante Servicios Web.",
+              "Desarrollo de Servicios Web para la integración de operaciones ALSA - National Express."
+            ],
+            "tecnologias":"Java, J2EE, Spring, Web Services, Oracle, WebSphere"
+          }
+        ]
+    }, {
+        "fechaIni": "Abril 2007",
+        "fechaFin": "Diciembre 2010",
+        "empresa": "BEE SOLUTIONS",
+        "puesto": "Analista programador Java",
+        "proyectos":[
+          {
+            "nombre":"eBOPA",
+            "fechaIni": "2007-04-01",
+            "fechaFin": "2010-12-01",
+            "descripcion": [
+              "Aplicación front-office (MiBOPA) para la creacion de listas de distribución por secciones, consejerias, palabras clave.",
+              "Applicación back-office (PubliBOPA) para el envío de anuncios desde consejerias hacia aplicación de gestión.",
+              "Aplicación (eBOPA) para la gestión integral del BOPA. Gestión del ciclo de vida de anuncios, integración con Adobe InDesign, integraciones con aplicaciones verticales del P.A. e integraciones con empresas de terceros para externalizar ciertas publicaciones."
+            ],
+            "tecnologias":"Tamino, XLS, XQuery, XPath, Java, J2EE, Struts, Tomcat"
+          }
+        ]
+      }
+    ]
+  },
+  "formacion": {
+    "titulo": "Formación académica",
+    "datos":[{
+        "fechaIni": "2000",
+        "fechaFin": "2006",
+        "nombreCentro": "Escuela de Ingeniería Técnica Informática de Gijón.",
+        "titulo": "Ingeniero Técnico en Informática de Gestión",
+        "descripcion": "Diplomatura en Ingeniería Técncnica en Informática de Gestión"
+    }, {
+        "fechaIni": "",
+        "fechaFin": "1999",
+        "nombreCentro": "Instituto Nº 1 Lugo",
+        "titulo": "Técnico Superior en Desarrollo de Productos Electrónicos",
+        "descripcion": ""
+      }
+    ]
+  },
+  "cursos": {
+    "titulo": "Cursos",
+    "datos":[{
+        "fechaIni": "",
+        "fechaFin": "2018",
+        "horas": "",
+        "nombreCentro": "TOEIC",
+        "titulo": "Certificado TOEIC B1",
+        "descripcion": "Certificación de nivel B1 reading listening"
+    }, {
+        "fechaIni": "",
+        "fechaFin": "2014",
+        "horas": "100",
+        "nombreCentro": "CIFP AVILES",
+        "titulo": "Programación ORACLE PL/SQL",
+        "descripcion": "Comandos SQL, desarrollar procedimientos PL/SQL almacenados, funciones, paquetes y disparadores de base de datos"
+    }, {
+        "fechaIni": "",
+        "fechaFin": "2013",
+        "horas": "50",
+        "nombreCentro": "Federación Asturiana de Empresarios",
+        "titulo": "HTML-5",
+        "descripcion": "Sintaxis y elementos HTML y CSS"
+    }, {
+        "fechaIni": "",
+        "fechaFin": "2012",
+        "horas": "30",
+        "nombreCentro": "Federación Asturiana de Empresarios",
+        "titulo": "Framework Spring",
+        "descripcion": "Inyección de dependencias, Contenedor y contextos IoC, Anotaciones, Spring MVC, RESTful, Formularios, Validaciones, Sesiones HTTP, Data JPA, Hibernate, Transaction management, Spring Security"
+    }, {
+        "fechaIni": "",
+        "fechaFin": "2011",
+        "horas": "250",
+        "nombreCentro": "IECISA",
+        "titulo": "Administración de Sistemas SAP",
+        "descripcion": ""
+    }, {
+        "fechaIni": "",
+        "fechaFin": "2010",
+        "horas": "60",
+        "nombreCentro": "Inadeco",
+        "titulo": "Microsoft SQL Server 2008",
+        "descripcion": "Roles, creación BD, clausulas Sql Server, consultas avanzadas, vistas y procedimientos almacenados."
+    }, {
+        "fechaIni": "",
+        "fechaFin": "2009",
+        "horas": "30",
+        "nombreCentro": "Dispal",
+        "titulo": "Diseño UML con Enterprise Architect",
+        "descripcion": ""
+    }, {
+        "fechaIni": "",
+        "fechaFin": "2006",
+        "horas": "480",
+        "nombreCentro": "Dicampus",
+        "titulo": "Master Especialista en Desarrollos JAVA/J2EE sobre Framework del Principado de Asturias",
+        "descripcion": "El Framework del Principao de Asturias fué desarrolla a partir de librerias J2EE MVC con Struts hibernate y JSP."
+    }, {
+        "fechaIni": "",
+        "fechaFin": "2006",
+        "horas": "400",
+        "nombreCentro": "F.S.I.",
+        "titulo": "Analista Programador",
+        "descripcion": "Curso para desarrollo de aplicaciones J2EE."
+      }
+    ]
+  },
+  "capacidades":{
+    "titulo": "Capacidades",
+    "labelNativo": "Lengua materna",
+    "nativo": "Español, Gallego",
+    "labelOtrosIdiomas":"Otros idiomas",
+    "labelIdioma": "Idioma",
+    "labelLectura":"Comprensión Lectora",
+    "labelEscritura":"Expresión Escrita",
+    "labelOral":"Expresión Oral",
+    "labelAuditiva":"Comprensión Autiditiva",
+    "idiomas":[{
+        "titulo": "Inglés",
+        "lectura": "B2",
+        "escritura": "B2",
+        "oral": "B1",
+        "audicion": "B1"
+        }
+    ],
+    "labelComunicacion": "Aptitudes de Comunicación",
+    "comunicacion": "En mi opinión es necesario no dar nada por supuesto es la mejor forma de evitar malentendidos, a esto ayuda la utilización e un lenguaje claro, preciso y apoyarse en ejemplos de casos de uso. Esto es base para una buena productividad que comienza por entender el alcance y requisitos, involucrar en esta tarea a todas las partes para poder evaluar correctamente tiempos, recursos y riesgos. Para este fin, es necesario plena colaboración y crear un ambiente de confianza.",
+    "labelOrganizacion": "Capacidades Organizativas",
+    "organizacion": "Desde hace muchos años trabajo en equipos de desarrollo donde utilizamos metodologias Agile como Scrum. También ha participado en proyectos con metodologias más tradicionales. En muchos casos he sido responsable técnico de pequeños equipos y siempre he participado activamente en el ciclo de vida de las tareas creación, desarrollo, prueba y documentación. Bajo mi punto de vista es importante elaborar una buena documentación compartida donde se reflejen todos los pasos realizados durante el desarrollo del proyecto. La 'documentación' en muchos proyectos no existe o no ha sido mantenida por lo que no se corresponde con la realidad, esto hay que evitarlo en todo lo posible.",
+    "labelTecnicas": "Capacidades Técnicas",
+    "tecnicas": "A lo largo de mi carrera he estado involucrado en la toma de Requisitos Funcionales, el Análisis, Desarrollo y Despliegue de los proyectos donde ha trabajado, mayormente con tecnologías J2EE, Web Services, Alfresco, Angular y con varios frameworks propietario.",
+    "labelCarnet": "Permiso circulación",
+    "carnet": "A, B"
+  }
+
+}
