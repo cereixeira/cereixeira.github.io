@@ -7,10 +7,10 @@
   "items": [
     {
       "title": "Angular",
-      "description": "front-end framework",
+      "description": "frontend framework",
       "urlSite": "https://angular.io",
       "urlImg": "assets/about/logo_angular.svg",
-      "details":"El front-end ha sido desarrollado con Angualar 16, desplegado en entorno Firebase. Se han implementado formularios reactivos, signals así como varios servicios que utilizan RestAPI desarrollada con NestJs."
+      "details":"El frontend ha sido desarrollado con Angualar 16, desplegado en entorno Firebase. Se han implementado formularios reactivos, signals así como varios servicios que utilizan RestAPI desarrollada con NestJs."
     },
     {
       "title": "NestJs",
@@ -42,10 +42,10 @@
     },
     {
       "title": "Firebase",
-      "description": "Servidor de aplicación front-end",
+      "description": "Servidor de aplicación frontend",
       "urlSite": "https://firebase.google.com",
       "urlImg": "assets/about/logo_firebase.svg",
-      "details":"Como servidor front-end he elegido firebase porque permite despliegues desde PC. Hay otras opciones pero obligaban a tener el repositorio público en vez de privado."
+      "details":"Como servidor frontend he elegido firebase porque permite despliegues desde PC. Hay otras opciones pero obligaban a tener el repositorio público en vez de privado."
     },
     {
       "title": "Cyclic",
