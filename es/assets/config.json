@@ -1,5 +1,5 @@
 {
-  "backEndUri": "http://miranda:8899/api",
+  "backEndUri": "http://miranda__:8899/api",
   "userFrontToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1MWE5Njg5NGI2NGI3NzIxMWIyNTc2MCIsImlhdCI6MTY5NjI0MTI4OSwiZXhwIjo0ODQ5ODQxMjg5fQ.hq0AD_mE_UOEDjugFxMZmj55eHGB9B3taJZhWOTJ3e8",
   "w3StorageToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweGE1ODFiOGYxNDRjZDUzRDdlNkY3QTQ5Y2QwQmFFMjU1ZGRhOEY4REUiLCJpc3MiOiJ3ZWIzLXN0b3JhZ2UiLCJpYXQiOjE2OTgyMTc4MTAwMjgsIm5hbWUiOiJjZXJlaXhlaXJhIn0.EBzZzSfM_bNrFeRD8TF5qumQiFnEtBOWyn-rxScGlr4"
 }
