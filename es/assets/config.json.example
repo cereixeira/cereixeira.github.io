@@ -1,0 +1,5 @@
+{
+  "backEndUri": "http://localhost:3000",
+  "userFrontToken": "REEMPLAZA_CON_TU_USER_FRONT_TOKEN"
+}
+

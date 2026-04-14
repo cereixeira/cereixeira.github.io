@@ -1,0 +1,5 @@
+{
+  "backEndUri": "${BACKEND_URI}",
+  "userFrontToken": "${USER_FRONT_TOKEN}"
+}
+
