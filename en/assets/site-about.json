@@ -1,8 +1,11 @@
 {
   "content": [
-   "La filosofia de esta aplicación Web ha sido que sea lo más barata posible usando tecnologías Web modernas.",
-   "Es por esto que tanto los frameworks de desarrollo, base de datos, herramientas y servidores son todo tecnologías gratuitas.",
-   "El único coste ha sido el dominio cereixeira.com."
+   "El objetivo de esta Aplicación Web ha sido ser lo más barata posible usando tecnologías Web modernas.",
+   "En un principio los IDE, frameworks de desarrollo, base de datos y servidores fueron todo tecnologías y servicios gratuitos.",
+   "He usado 'fueron' porque desde que fué creada 100% gratuita pero algunos servicios han cambiado sus condiciones o han desaparecido.",
+    "Por ejemplo 'Cyclic' ha dejado de dar servicio, 'IPFS' y 'Firebase' ha cambiado sus condiciones y 'MongoDB Atlas' ha limitado el número de conexiones gratuitas.",
+    "Por todo esto he adquirido un pequeño servidor con Ubuntu Server y he montado una arquitectura de microservicios con Docker, añadiendo Nginx como proxy inverso y certificados SSL gratuitos que permiten conexión https.",
+    "Ahora todo está desplegado en mi servidor por lo que el costo sobre 200€ del servidor y la conexión 24/7 a la corriente eléctrica hace que no pueda decir que sea 100% gratuita pero si que es muy barata."
   ],
   "items": [
     {
@@ -10,14 +13,14 @@
       "description": "frontend framework",
       "urlSite": "https://angular.io",
       "urlImg": "assets/about/logo_angular.svg",
-      "details":"El frontend ha sido desarrollado con Angualar 16, desplegado en entorno Firebase. Se han implementado formularios reactivos, signals así como varios servicios que utilizan RestAPI desarrollada con NestJs."
+      "details":"El frontend ha sido desarrollado con Angular 16, desplegado en entorno Firebase. Se han implementado formularios reactivos, signals así como varios servicios que utilizan RestAPI desarrollada con NestJs."
     },
     {
       "title": "NestJs",
       "description": "back-end framework",
       "urlSite": "https://nestjs.com",
       "urlImg": "assets/about/logo_nestjs.svg",
-      "details":"El back-end implemena una RestAPI desarrollada con Nestjs, desplegada en Cyclic. Se conecta con una base de datos MongoDB Atlas que es donde se alojan los contenidos dinámicos de la aplicación."
+      "details":"El back-end implementa una RestAPI desarrollada con Nestjs, desplegada en Cyclic. Se conecta con una base de datos MongoDB Atlas que es donde se alojan los contenidos dinámicos de la aplicación."
     },
     {
       "title": "MongoDB Atlas",
@@ -39,27 +42,6 @@
       "urlSite": "https://github.com/",
       "urlImg": "assets/about/logo_github.svg",
       "details":"El control de versiones se ha realizado con Git y se usa el repositorio GitHub."
-    },
-    {
-      "title": "Firebase",
-      "description": "Servidor de aplicación frontend",
-      "urlSite": "https://firebase.google.com",
-      "urlImg": "assets/about/logo_firebase.svg",
-      "details":"Como servidor frontend he elegido firebase porque permite despliegues desde PC. Hay otras opciones pero obligaban a tener el repositorio público en vez de privado."
-    },
-    {
-      "title": "Cyclic",
-      "description": "Servidor de aplicación back-end",
-      "urlSite": "https://www.cyclic.sh",
-      "urlImg": "assets/about/logo_cyclic.svg",
-      "details":"El servidor back-end elegido es Cyclic porque permite despliegues despliegues automáticos desde rama con repositorio privado."
-    },
-    {
-      "title": "IPFS",
-      "description": "Almacén de ficheros dinámicos",
-      "urlSite": "https://ipfs.tech",
-      "urlImg": "assets/about/logo_ipfs.svg",
-      "details":"Los ficheros dinámicos son subidos a una instancia de Elastic IPFS usando tecnología web3.storage."
     }
 
   ]

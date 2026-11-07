@@ -10,9 +10,14 @@
     "mail": "fjavierdiazlopez@gmail.com",
     "labelNacionalidad": "Nacionalidad",
     "nacionalidad": "Español",
-    "extra":[{
+    "extra":[
+      {
         "label": "Site",
-        "value": "http://cereixeira.com",
+        "value": "https://cereixeira.duckdns.org:8900",
+        "isLink": true},
+      {
+        "label": "Site",
+        "value": "https://cereixeira.github.io/es",
         "isLink": true
       }, {
         "label": "GitHub",
@@ -24,16 +29,38 @@
   },
   "experiencia": {
     "titulo": "Info. Profesional",
-    "datos":[{
-        "fechaIni": "Febrero 2019",
+    "datos":[
+      {
+        "fechaIni": "Abril 2024",
         "fechaFin": "Actualidad",
+        "empresa": "Izertis",
+        "puesto": "Consultor Alfresco ACS, Analista J2EE / Angular",
+        "proyectos":[
+          {
+            "nombre":"Hyland Alfresco",
+            "fechaIni": "2024-04-01",
+            "fechaFin": "Actualidad",
+            "descripcion":[
+              "Implementación de WebsScript como capa de servicios para integraciones con terceros.",
+              "Creación de Actions y Behaviors para la gestión de documentos y metadatos.",
+              "Desarrollo de herramientas para Migración de documentos con Spring boot.",
+              "Desarrollo de frontend Angular ADW que está basada en Angular.",
+              "Despliegues de de componentes Alfresco entornos AWS, en instalaciones on-premise y en contenedores Docker."
+            ],
+            "tecnologias":"Alfresco, Angular, AWS, Java, TypeScript, Web Services, Jira, Git"
+          }
+        ]
+      },
+      {
+        "fechaIni": "Febrero 2019",
+        "fechaFin": "Marzo 2024",
         "empresa": "DXC TECHNOLOGY SPAIN",
         "puesto": "Analista programador Java / Alfresco / Angular",
         "proyectos":[
           {
-            "nombre":"SingularBank, MedVida, IRP",
+            "nombre":"Gestión Documental Alfresco",
             "fechaIni": "2022-01-01",
-            "fechaFin": "Actualidad",
+            "fechaFin": "2024-03-31",
             "descripcion":[
               "Desarrollos Java para gestor documental Alfresco para Entidades Financieras.",
               "Creación de custom Behaviors y WebScripts para integraciones con terceros.",
